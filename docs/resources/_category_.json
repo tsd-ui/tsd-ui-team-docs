@@ -1,0 +1,8 @@
+{
+  "label": "Resources",
+  "position": 60,
+  "link": {
+    "type": "generated-index",
+    "description": "Helpful resources for the team"
+  }
+}

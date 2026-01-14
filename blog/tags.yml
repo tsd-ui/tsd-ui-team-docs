@@ -1,0 +1,15 @@
+ci-cd:
+  label: CI/CD
+  permalink: ci-cd
+  description: Continuous integration and delivery (CI/CD)
+
+docusaurus:
+  label: Docusaurus
+  permalink: docusaurus
+  description: About Docusaurus, the library we use to build these docs
+
+
+r&d:
+  label: R&D
+  permalink: research-development
+  description: Research & development happening across the team
