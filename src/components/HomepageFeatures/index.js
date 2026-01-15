@@ -17,7 +17,7 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        These are living and breathing docs. Please help to keep them up-to-date. They <a href={"https://github.com/securesign/team-docs"} rel={"nofollow noopener"} target={"_blank"}>live in GitHub</a> just like us, and can be integrated into one of our existing CI/CD pipelines to ensure they stay up-to-date.
+        These are living and breathing docs. Please help to keep them up-to-date. They <a href={"https://github.com/tsd-ui/tsd-ui-team-docs"} rel={"nofollow noopener"} target={"_blank"}>live in GitHub</a> just like us, and can be integrated into one of our existing CI/CD pipelines to ensure they stay up-to-date.
       </>
     ),
   },

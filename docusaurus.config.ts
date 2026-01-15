@@ -49,14 +49,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/securesign/team-docs/tree/main/docs/',
+            'https://github.com/tsd-ui/tsd-ui-team-docs/tree/main/docs/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/securesign/team-docs/tree/main/docs/',
+            'https://github.com/securesign/tsd-ui-team-docs/tree/main/docs/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -101,7 +101,7 @@ const config = {
             to: '/f2f', label: 'F2F', position: 'left'
           },
           {
-            href: 'https://github.com/securesign/team-docs',
+            href: 'https://github.com/tsd-ui/tsd-ui-team-docs',
             label: 'GitHub',
             position: 'right',
           }

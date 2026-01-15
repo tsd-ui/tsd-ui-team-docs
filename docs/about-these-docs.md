@@ -49,9 +49,9 @@ Open `docs/intro.md` and edit some lines: the site **reloads automatically** and
 
 ## Deploying Changes
 
-Changes are published automatically on push to the `main` branch of the [securesign/team-docs](https://github.com/securesign/team-docs) repository, which is private to members of the `securesign` org. The workflow responsible for deployment is located here: [.github/workflows/deploy.yml](https://github.com/securesign/team-docs/blob/main/.github/workflows/deploy.yml)
+Changes are published automatically on push to the `main` branch of the [tsd-ui/tsd-ui-team-docs](https://github.com/tsd-ui/tsd-ui-team-docs) repository, which is private to members of the `securesign` org. The workflow responsible for deployment is located here: [.github/workflows/deploy.yml](https://github.com/tsd-ui/tsd-ui-team-docs/blob/main/.github/workflows/deploy.yml)
 
-The docs are deployed using [GitHub Pages](https://pages.github.com/) and are private thanks to Red Hat having an enterprise plan. Check the [repo Pages settings](https://github.com/securesign/team-docs/settings/pages) for additional info.
+The docs are deployed using [GitHub Pages](https://pages.github.com/) and are private thanks to Red Hat having an enterprise plan. Check the [repo Pages settings](https://github.com/tsd-ui/tsd-ui-team-docs/settings/pages) for additional info.
 
 ## How to add new things
 
