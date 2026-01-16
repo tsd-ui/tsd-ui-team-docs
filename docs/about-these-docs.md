@@ -7,10 +7,6 @@ title: "About These Docs"
 import { Highlight } from "../src/components/Highlight";
 
 
-# How they work
-
-TBD
-
 # ✏️️ Contributing
 
 These docs are built with [Docusaurus](https://github.com/facebook/docusaurus) and deployed to GitHub Pages. Check 

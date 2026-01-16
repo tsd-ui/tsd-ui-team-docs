@@ -84,7 +84,7 @@ const config = {
       navbar: {
         title: 'TSD UI Team Docs',
         logo: {
-          alt: 'TAS Logo',
+          alt: 'Red Hat Logo',
           src: 'img/Logo-Red_Hat-Hat_icon-Standard-RGB.svg',
         },
         items: [
@@ -96,9 +96,6 @@ const config = {
           },
           {
             to: '/blog', label: 'Blog', position: 'left'
-          },
-          {
-            to: '/f2f', label: 'F2F', position: 'left'
           },
           {
             href: 'https://github.com/tsd-ui/tsd-ui-team-docs',
@@ -114,38 +111,17 @@ const config = {
             title: 'Helpful Links',
             items: [
               {
-                label: 'New around here?',
-                to: '/docs/welcome',
-              },
-              {
-                label: 'JIRA Epic',
-                href: 'https://issues.redhat.com/projects/TSD-UI/summary',
+                label: 'JIRA TSD Dashboard',
+                href: 'https://issues.redhat.com/secure/Dashboard.jspa?selectPageId=12390994',
               },
             ],
           },
           {
-            title: 'Product',
-            items: [
-              {
-                label: 'The Source',
-                to: 'https://source.redhat.com/communities/communities_of_practice/applications/integration_cop/integration_community_of_practice_forum/sigstore_productization'
-              },
-            ],
-          },
-          {
-            title: 'RHTAS Org',
+            title: 'TSD UI Org',
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/securesign',
-              },
-              {
-                label: 'Snyk',
-                href: 'https://app.snyk.io/org/application-services-red-hat-trusted-artifact-signer/'
-              },
-              {
-                label: 'Quay',
-                to: 'https://quay.io/organization/securesign/'
+                href: 'https://github.com/tsd-ui',
               },
               {
                 label: 'Google Drive',

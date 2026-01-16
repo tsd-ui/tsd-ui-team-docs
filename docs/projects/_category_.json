@@ -1,0 +1,8 @@
+{
+  "label": "Projects",
+  "position": 50,
+  "link": {
+    "type": "generated-index",
+    "description": "Information about the projects we are working on."
+  }
+}

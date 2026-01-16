@@ -24,7 +24,3 @@ The team will review it soon after. For more, information, see the [contributing
 :::tip
 There is a light/dark mode toggle and a handy searchbar on the top right.
 :::
-
-## What is TSD UI?
-
-Trusted Software Delivery UI team

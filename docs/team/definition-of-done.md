@@ -1,14 +1,16 @@
 # Definition of Done
 
+
+:::warning
+
+This has not yet been discussed or agreed with the team and is purely here as guidance
+
+:::
+
 ## Acceptance Criteria
 
 Acceptance Criteria are, essentially, high level tests to prove the backlog item does what it's supposed to do.
 
-:::info
-
-To make this easier, we might consider using a [Jira template](https://deviniti.com/blog/application-lifecycle-management/jira-ticket-epic-templates-ultimate-guide/) to provide a brief reminder to provide Acceptance Criteria during task creation.
-
-:::
 
 Each product backlog item should have an associated set of Acceptance Criteria, to facilitate testing and review, and to account for situations where there is not enough context to complete a task.
 
