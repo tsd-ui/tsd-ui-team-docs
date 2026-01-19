@@ -137,6 +137,10 @@ const config = {
                 label: 'Google Drive',
                 href: 'https://drive.google.com/drive/u/0/folders/1yLnj4F_fttu5oZqezvKf9LrKBxxnPbrS'
               },
+              {
+                label: 'Projects & Repositories',
+                href: 'https://docs.google.com/document/d/1eMdS_JS0SaAwkaEhsa_DbG48ct-GYOV63qemeb4nOlI/edit?tab=t.0#heading=h.g0vplhwymsan'
+              }
             ],
           },
           {
@@ -146,6 +150,10 @@ const config = {
                 label: 'Slack (team)',
                 href: 'https://redhat.enterprise.slack.com/archives/C09MQNXHECQ',
               },
+              {
+                label: 'ADS & TSD UI Team Calendar',
+                href: 'https://calendar.google.com/calendar/embed?src=c_4e1eb218a69baa5a98bbb94b0d057c0ff3bfa5937d6250dbf6f0ad2e970bb712%40group.calendar.google.com&ctz=Europe%2FLondon'
+              }
             ],
           },
         ],
