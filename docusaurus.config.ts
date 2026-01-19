@@ -19,7 +19,6 @@ const config = {
   baseUrl: '/',
 
   onBrokenLinks: 'log',
-  onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -30,7 +29,10 @@ const config = {
   },
 
   markdown: {
-    mermaid: true
+    mermaid: true,
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
+    },
   },
 
   noIndex: true,
