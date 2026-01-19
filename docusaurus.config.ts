@@ -108,11 +108,19 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Helpful Links',
+            title: 'Jira Links',
             items: [
               {
-                label: 'JIRA TSD Dashboard',
+                label: 'TSD UI Dashboard',
                 href: 'https://issues.redhat.com/secure/Dashboard.jspa?selectPageId=12390994',
+              },
+              {
+                label: 'All TSD UI Issues',
+                href: 'https://issues.redhat.com/issues/?filter=12483581',
+              },
+              {
+                label: 'Good First Issues',
+                href: 'https://issues.redhat.com/issues/?filter=12468470',
               },
             ],
           },

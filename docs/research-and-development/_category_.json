@@ -1,6 +1,6 @@
 {
   "label": "Research and Development",
-  "position": 40,
+  "position": 80,
   "link": {
     "type": "generated-index",
     "description": "Topics for research and possible future development in the TSD UI project as well as within the RHADS ecosystem."

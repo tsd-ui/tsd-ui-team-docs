@@ -1,11 +1,14 @@
-# RHTAS
+---
+sidebar_position: 1
+sidebar_label: RHDH
+---
 
-A collection of RHDH resources.
+# Red Hat Developer Hub
+
+A collection of Red Hat Developer Hub (RHDH) resources.
 
 ## Helpful Links
 
 
-
 ## Demos & Slides
 
-N/A
