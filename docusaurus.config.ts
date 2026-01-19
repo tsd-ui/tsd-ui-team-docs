@@ -13,10 +13,10 @@ const config = {
   favicon: 'img/favicon-rh.svg',
 
   // production url of the docs
-  url: 'http://localhost',
+  url: process.env.DOCS_URL || 'http://localhost:3000',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: process.env.DOCS_BASE_URL || '/',
 
   onBrokenLinks: 'log',
 
