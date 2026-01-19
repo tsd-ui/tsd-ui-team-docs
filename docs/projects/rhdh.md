@@ -5,10 +5,11 @@ sidebar_label: RHDH
 
 # Red Hat Developer Hub
 
-The repositories were transferred to the RHDH team (Red Hat Developer Hub) https://github.com/backstage/community-plugins is where all plugins land off https://github.com/backstage is the Upstream project for RHDH.
+[Backstage](https://backstage.io/) is the Upstream project for Red Hat Developer Hub (RHDH).
 
 
 ## Helpful Links
 
+- Community Plugins: [github.com/backstage/community-plugins](https://github.com/backstage/community-plugins)
 - Backstage: [github.com/backstage](https://github.com/backstage)
 
