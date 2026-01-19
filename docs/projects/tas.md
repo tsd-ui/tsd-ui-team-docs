@@ -11,3 +11,4 @@ Red Hat Trusted Artifact Signer (RHTAS) is a product of the upstream project [Si
 - Console Frontend: [github.com/securesign/rhtas-console-ui](https://github.com/securesign/rhtas-console-ui)
 - Console Backend: [github.com/securesign/rekor-search-ui](https://github.com/securesign/rekor-search-ui)
 - [Jira: TAS Console Epics](https://issues.redhat.com/issues/?filter=12468470)
+- [Jira: TAS Issues](https://issues.redhat.com/browse/SSCUI-22?jql=project%20%3D%20SSCUI%20AND%20component%20%3D%20TAS)
