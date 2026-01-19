@@ -140,7 +140,7 @@ const config = {
               {
                 label: 'Projects & Repositories',
                 href: 'https://docs.google.com/document/d/1eMdS_JS0SaAwkaEhsa_DbG48ct-GYOV63qemeb4nOlI/edit?tab=t.0#heading=h.g0vplhwymsan'
-              }
+              },
               {
                 label: 'TSD UI Team Charter',
                 href: 'https://docs.google.com/document/d/13FN-vAFRhgcckpImIxbtxHC5vwa-vhiuRBWXtLDuVFc/edit?tab=t.0#heading=h.4jmxnnsm9h9w'
