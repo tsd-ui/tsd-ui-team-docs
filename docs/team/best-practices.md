@@ -18,9 +18,13 @@ Focus less on semantics and more on security, whether the changes will break ano
 
 TBD. Linting, formatting, commit messages.
 
+Resources: [MDN Web Docs](https://developer.mozilla.org/en-US/), Google [web.dev](https://web.dev)
+
 ## Testing
 
 Proper testing allows us to ship code that we are confident in. Any UI that relies on user interactivity should have E2E tests. And, of course, never trust a test you've not seen fail.
+
+Resources: [Kent Dodds](https://kentcdodds.com/)
 
 ### Code coverage
 
@@ -28,7 +32,7 @@ When possible, we should strive to reach at least 70% code coverage (unit tests)
 
 ## Usability
 
-For consistency across Red Hat projects, we use a pattern library called PatternFly. Sometimes, we have to create custom components that are not PatternFly-specific. We should ensure those components are well tested.
+To ensure consistency across Red Hat products, we use a pattern library called [PatternFly](https://www.patternfly.org/). Sometimes, we have to create custom components that are not PatternFly-specific. We should ensure those components are well tested.
 
 ### Accessibility
 
@@ -36,4 +40,4 @@ All products should be compliant with Red Hat's accessibility standards and poli
 
 ## Using AI
 
-Please review the company policy and ensure your commits are labeled with "Assisted-By: <model>".
+Please review the [company policy on AI Use](https://source.redhat.com/departments/legal/products_privacy_and_innovation/legal_wiki/policy_on_the_use_of_ai_technology) and the list of [approved tools and use cases](https://source.redhat.com/projects_and_programs/ai/ai_tools_and_use_cases). Ensure your commits are labeled with "Assisted-By: <model>".
