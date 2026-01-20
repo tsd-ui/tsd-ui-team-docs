@@ -38,6 +38,10 @@ To ensure consistency across Red Hat products, we use a pattern library called [
 
 All products should be compliant with Red Hat's accessibility standards and policy.
 
+Resources: [Red Hat Accessibility Policy](https://drive.google.com/file/d/12HAvFDFi8txQEp66_J98sxDIle7jPnen/view), [Red Hat DXS Accessibility Program](https://source.redhat.com/projects_and_programs/dxs_accessibility_program)
+
 ## Using AI
 
-Please review the [company policy on AI Use](https://source.redhat.com/departments/legal/products_privacy_and_innovation/legal_wiki/policy_on_the_use_of_ai_technology) and the list of [approved tools and use cases](https://source.redhat.com/projects_and_programs/ai/ai_tools_and_use_cases). Ensure your commits are labeled with "Assisted-By: <model>".
+Ensure your commits are labeled with `"Assisted-By: <model>"`.
+
+Resources: [Company policy on AI Use](https://source.redhat.com/departments/legal/products_privacy_and_innovation/legal_wiki/policy_on_the_use_of_ai_technology), [Approved tools and use cases](https://source.redhat.com/projects_and_programs/ai/ai_tools_and_use_cases)
