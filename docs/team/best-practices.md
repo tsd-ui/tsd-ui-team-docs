@@ -20,6 +20,8 @@ TBD. Linting, formatting, commit messages.
 
 Resources: [MDN Web Docs](https://developer.mozilla.org/en-US/), Google [web.dev](https://web.dev)
 
+We mainly use Dependabot to manage dependency bumps, and CodeQL for quality checks.
+
 ## Testing
 
 Proper testing allows us to ship code that we are confident in. Any UI that relies on user interactivity should have E2E tests. And, of course, never trust a test you've not seen fail.
