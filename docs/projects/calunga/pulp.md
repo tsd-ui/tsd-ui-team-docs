@@ -109,8 +109,9 @@ Here's the typical workflow and how these concepts work together:
 
 ### 1. Syncing Content (Importing)
 
-```
-Remote → Repository → RepositoryVersion
+```mermaid
+graph LR
+    Remote --> Repository --> RepositoryVersion
 ```
 
 1. You create a **Remote** pointing to an external source
@@ -121,8 +122,9 @@ Remote → Repository → RepositoryVersion
 
 ### 2. Publishing and Distributing (Exporting)
 
-```
-RepositoryVersion → Publication → Distribution
+```mermaid
+graph LR
+    RepositoryVersion --> Publication --> Distribution
 ```
 
 1. You select a **RepositoryVersion** (a specific snapshot of your repository)
@@ -132,20 +134,14 @@ RepositoryVersion → Publication → Distribution
 
 ### 3. The Complete Flow
 
-```
-External Source
-      ↓
-   Remote (connection settings)
-      ↓
-   Repository (collection of content)
-      ↓
-   RepositoryVersion (snapshot)
-      ↓
-   Publication (formatted for serving)
-      ↓
-   Distribution (public URL endpoint)
-      ↓
-   End Users
+```mermaid
+graph TB
+    A[External Source] --> B[Remote<br/>connection settings]
+    B --> C[Repository<br/>collection of content]
+    C --> D[RepositoryVersion<br/>snapshot]
+    D --> E[Publication<br/>formatted for serving]
+    E --> F[Distribution<br/>public URL endpoint]
+    F --> G[End Users]
 ```
 
 ## Key Relationships Simplified
