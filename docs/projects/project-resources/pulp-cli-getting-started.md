@@ -62,7 +62,15 @@ You should see something like this:
 }
 ```
 
-After you get a successful status, ask someone to add you to the group: https://internal.console.redhat.com/api/pulp-mgmt/
+### Setup domain (done only once)
+
+- Create a domain:
+```bash
+pulp console populated-domain create --name calunga-ui-dev
+```
+
+- Ask someone to add you to the group: https://internal.console.redhat.com/api/pulp-mgmt/
+  - Your [service account](https://access.redhat.com/terms-based-registry/) is the one added to the group
 
 ## Curl
 Once you're in the domain group and have access to the APIs you should be able to make direct API calls using `curl`.
@@ -71,10 +79,11 @@ First set up these ENV variables:
 ```bash
 export PULP_USERAME=<service-account>
 export PULP_PASSWORD=<service-account-pass>
+export PULP_DOMAIN=calunga-ui-dev
 ```
 
 Now you're all set:
 ```bash
-curl -L -u "$PULP_USERNAME:$PULP_PASSWORD" -H "Accept: application/json" -H "Content-Type: application/json" "https://packages.redhat.com/api/pulp/<domain>/api/v3/content/python/packages" | jq
+curl -L -u "$PULP_USERNAME:$PULP_PASSWORD" -H "Accept: application/json" -H "Content-Type: application/json" "https://packages.redhat.com/api/pulp/$PULP_DOMAIN/api/v3/content/python/packages" | jq
 ```
 
